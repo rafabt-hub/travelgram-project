@@ -43,3 +43,33 @@ header .container {
   align-items: center;
   gap: 8px;
 }
+
+@media (max-width: 768px) {
+
+  header {
+    & p {
+      font-size: 1rem;
+    }
+  }
+ 
+  #primary-menu li:nth-child(2), #primary-menu li:nth-child(3) { 
+   display: none;
+  }
+
+  #profile {
+    & h1 {
+      font-size: 1.5rem;
+    }
+  flex-direction: column;
+  }
+  
+  #info {
+    flex-direction: column;
+  }
+  
+  header .container {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
