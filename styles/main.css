@@ -13,6 +13,8 @@ main img {
 
 @media (max-width: 768px) {
   main {
+    flex-direction: column;
+    align-items: center;
     gap: 1rem;
   }
   
